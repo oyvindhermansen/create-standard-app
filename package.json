@@ -1,0 +1,33 @@
+{
+  "name": "create-npm-app",
+  "version": "0.0.1",
+  "description": "An easier way of starting a new npm module",
+  "main": "./lib/index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --hot --inline --progress --colors --open",
+    "start": "webpack-dev-server --hot --inline --progress --colors --open",
+    "build": "NODE_ENV=production cross-env BABEL_ENV=commonjs babel src --out-dir lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oyvindhermansen/create-npm-module.git"
+  },
+  "keywords": [],
+  "author": "Øyvind Hermansen <oyvindher@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-register": "^6.26.0",
+    "cross-env": "^5.0.5",
+    "jest": "^21.2.1",
+    "webpack": "^3.5.5",
+    "webpack-dev-server": "^2.7.1",
+    "webpack-hot-middleware": "^2.18.2"
+  },
+  "dependencies": {}
+}
