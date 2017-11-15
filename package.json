@@ -6,14 +6,14 @@
   "scripts": {
     "dev": "webpack-dev-server --hot --inline --progress --colors --open",
     "start": "webpack-dev-server --hot --inline --progress --colors --open",
-    "build": "NODE_ENV=production cross-env BABEL_ENV=commonjs babel src --out-dir lib"
+    "build":
+      "NODE_ENV=production cross-env BABEL_ENV=commonjs babel src --out-dir lib"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/oyvindhermansen/create-npm-module.git"
+    "url": "git+https://github.com/oyvindhermansen/create-standard-app.git"
   },
   "keywords": [],
-  "author": "Øyvind Hermansen <oyvindher@gmail.com>",
   "license": "MIT",
   "devDependencies": {
     "babel-cli": "^6.26.0",
