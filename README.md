@@ -1,13 +1,9 @@
-# Create NPM module
-An easier way of starting a new npm module.
-
-> Default setup with React. If you don't need react, just uninstall
-> the npm-packages you don't need.
+# Create standard app
+Without setup. Just start making your beloved todo app!
 
 ### Install
 ```sh
-$ git clone https://github.com/oyvindhermansen/create-npm-module.git
-$ cd create-npm-module
+$ git clone https://github.com/oyvindhermansen/create-standard-app.git
 $ yarn install
 ```
 
@@ -18,26 +14,9 @@ $ yarn dev
 $ yarn start
 ```
 
-### Testing your module with Jest
-```sh
-$ yarn test
-$ yarn test:watch
-```
+### What does it contain?
 
-### Coverage with Jest
-```sh
-$ yarn coverage
-```
+Make apps from the `/src/` directory based from index.js. When you make
+changes to the index.js it will automatically hot reload. 
 
-### Prettier
-This will target `src` folder.
-```sh
-$ yarn prettier
-```
-
-### Build src for production
-This script will also run when publishing through the `pre-publish`-script.
-```sh
-$ yarn build
-```
-# create-standard-app
+You can use ES6++ with this starterkit. Rest-spread and class properties is also included as babel-plugins. Have fun!
